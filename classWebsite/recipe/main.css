@@ -1,7 +1,51 @@
+/*Basic Body Format*/
 body{
     background-color:gainsboro;
     font-family:helvetica;
+    font-size:15px;
+    font-weight:lighter;
+    
 }
+/*Highlight Effect for Ingredients and Instructions*/
 li:hover{
     color:orangered;
+    transition-delay:0s;
+    transition-duration:1s;
+    
+}
+li{
+    font-style:italic;
+}
+/*Chicken Image Resize*/
+img{
+    width:680px;
+    height:500px;
+    margin-left:20px;
+}
+#mBourbon{
+    width:680px;
+    height:500px;
+    margin-left:100px;
+}
+#intro p{
+    text-align:center;
+}
+h1{
+    color:forestgreen;
+    margin-left:20px;
+    border-style:double;
+    text-align:center;
+}
+h2{
+    color:forestgreen;
+    margin-left:20px;
+    border-style:double;
+    text-align:center;
+}
+
+p{
+    margin-left:20px;
+}
+#nFacts{
+    text-transform:capitalize;
 }

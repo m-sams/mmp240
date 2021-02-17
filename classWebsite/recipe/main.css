@@ -1,0 +1,7 @@
+body{
+    background-color:gainsboro;
+    font-family:helvetica;
+}
+li:hover{
+    color:orangered;
+}

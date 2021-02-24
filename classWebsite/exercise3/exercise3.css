@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:640px;
+    background-color:gainsboro;
+    margin-left:auto;
+    margin-right:auto;
+}
+p{
+    border: double 5px aqua;
+    margin-bottom: 2em;
+    padding: 1em;
+    
+}

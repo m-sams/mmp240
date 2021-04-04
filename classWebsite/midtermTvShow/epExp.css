@@ -1,0 +1,126 @@
+#wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+body p,h1,h2,h3,h4,ul,footer,button{
+    font-family:Oswald;
+    font-size:1.0em;
+    line-height:2em;
+}
+h2,h3,footer{
+    font-weight:800;
+}
+header{   
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(0,0,0,1) 60%),url(images/driftersBG1.png) left top no-repeat;
+    padding:3em;
+     /*background: linear-gradient(90deg, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 44%, rgba(0,0,0,1) 56%),url(images/driftersBG1.png) left top no-repeat;*/
+    
+  
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px);*/
+    /*background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(255,255,255,0) 60%),url("images/driftersBG1.jpg") right top no-repeat, white;*/
+}
+
+header button{
+    background-position:left;
+    background-color:white;
+    background-image:url(images/trPlyBtn.png);
+    border:none;
+    background-repeat:no-repeat;
+    color:black;
+    padding:10px;
+    padding-left:30px;
+    padding-bottom:10px;
+    margin-left:880px;
+}
+nav{
+    background-color:rgb(0,0,0,1);
+    padding:10px;
+    margin-bottom:60px;
+}
+li{
+   display:inline;  
+   padding-left:15px;
+   padding-right:15px;
+   margin:10px;
+}
+li:hover{
+    color:#F54D00;
+}
+a:hover{
+    color:#F54D00;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+}
+
+p{
+    margin-bottom:1em;
+}
+b{
+    font-weight:800;
+}
+main{
+    margin-bottom:2em;
+    overflow:auto;
+}
+
+#logo{
+    margin-left:760px;
+    max-width:100%;
+    /*logo does not resize, regardless if margin is removed or if descendant selector is used to target image instead of id*/
+}
+#dInt{
+   color:white;
+   width:200px;
+   margin-left:850px;
+}
+.flex-container-0{
+    display:flex;
+    justify-content:space-around;
+    align-items:end;
+    margin-right:auto;
+    margin-left:auto;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex: 1 0;
+}
+/*Organizing content within boxes*/
+.flex-item{
+    height:400px;
+    width:300px;
+      
+    padding:5px;
+    margin:0.5em;
+    align-self:flex-end;    
+}
+/*image sizing*/
+.img-responsive{
+     width:100%;      
+} 
+/*experimental css in correspondence with html*/
+/*.flex-container-2{
+    display:flex;
+    align-items:flex-start;
+    margin-right:auto;
+    margin-left:auto;
+    flex-direction:row;   
+}*/
+/*sizing intro text*/
+.flex-item-2{
+    height:400px;
+    width:100px;
+    align-self:flex-start;      
+}
+
+.epIntro{
+    align-self:flex-start
+    margin-right:auto;
+}
+  
+/*.flex-container-1{
+    display:flex;
+    justify-content:space-around;
+    }*/

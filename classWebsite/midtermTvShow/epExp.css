@@ -77,50 +77,19 @@ main{
    width:200px;
    margin-left:850px;
 }
-.flex-container-0{
+.episodes{
     display:flex;
-    justify-content:space-around;
-    align-items:end;
-    margin-right:auto;
-    margin-left:auto;
     flex-direction:row;
     flex-wrap:wrap;
-    flex: 1 0;
+    justify-content: space-around;
 }
-/*Organizing content within boxes*/
-.flex-item{
-    height:400px;
-    width:300px;
-      
-    padding:5px;
-    margin:0.5em;
-    align-self:flex-end;    
+.ep-card{
+    width:30%;
+    margin-right:1%;
 }
-/*image sizing*/
 .img-responsive{
-     width:100%;      
-} 
-/*experimental css in correspondence with html*/
-/*.flex-container-2{
-    display:flex;
-    align-items:flex-start;
-    margin-right:auto;
-    margin-left:auto;
-    flex-direction:row;   
-}*/
-/*sizing intro text*/
-.flex-item-2{
-    height:400px;
-    width:100px;
-    align-self:flex-start;      
+    width:100%;
 }
-
-.epIntro{
-    align-self:flex-start
-    margin-right:auto;
+main h2,p{
+    margin-right:10%;
 }
-  
-/*.flex-container-1{
-    display:flex;
-    justify-content:space-around;
-    }*/

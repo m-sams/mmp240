@@ -43,9 +43,16 @@ a:visited{
 }
 #asList ul{
     margin: 100px;
+    padding:20px;
+    text-align:center;
    
 }
 ul li{
-    padding:5px;
+    padding:10px;
+    
+    border: 1px solid white;
+    border-radius:3px;
+    margin:10px;
+    
 }
 

@@ -1,0 +1,262 @@
+/* Mobile, Home Page*/
+
+body{
+    background-color:#75002D;
+}
+
+#wrapper{
+    max-width:1200px;
+    padding:1em;
+    background-color:#75002D;
+}
+
+.hero-img{
+    width:100%;
+    border:solid 3px white;
+    border-radius:5px;
+}
+
+#herotxt{
+position: absolute;
+  top: 310px;
+  leftt: 5px;
+    width:100%;
+}
+
+.main-menu li{
+    display:inline-block;
+    margin-right:2em;
+}
+.main-menu li:hover  .dropdown{
+display:block;
+}
+
+nav li img{
+    float:right;
+    width:8px;
+}
+
+nav a{
+    
+    text-decoration:none;
+}
+
+.dropdown{
+    
+    background-color:#B50045;
+    padding:0;
+    position:absolute;
+    display:none;
+}
+.dropdown li{
+    
+    display: block;
+    border:solid 1px white;
+    padding:0.5em 2em;
+    margin-right:0;
+}
+a{
+    font-family:helvetica;
+    text-decoration:none;
+    color:white;
+}
+footer{
+    font-family:helvetica;
+    color:white;
+}
+a:hover{
+    background-color:#B50045
+}
+a:visited{
+    color:white;
+}
+
+
+
+p,h1,h2,h3,h4{
+    margin-bottom:1em;
+    font-family:helvetica;
+    color:white;
+}
+
+h1,h2,h3,h4{
+    font-weight:bold;
+}
+
+
+
+.site-header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.menu-nav{
+    
+    display:none;
+}
+
+
+
+.main-menu ul{
+    list-style-type:none;
+}
+
+.show-menu{
+    background-color:transparent;
+    border:none;
+}
+
+
+.search-programs{
+    min-height:8ems;
+    border:solid 5px white;
+    border-radius: 10px;
+    padding:1.5em;
+    margin-bottom:1em;
+}
+
+.hero-banner{
+    min-height:12em;
+    /*background-color:#DB0054;*/
+    padding:1em;
+    margin-bottom:1em;
+}
+
+.event-item img{
+    width:100%;
+}
+.btn2{
+    
+  position:absolute;
+top:420px;
+    left:40px;
+  text-transform:uppercase;
+  font-size:1em;
+  color:white;
+  padding:0.5em;
+  min-width:1em;
+  border:none;
+  background-color:#B50045;
+  border-radius:5px;
+        /*transition-property:background-color,box-shadow;
+        transition-duration: 0.6s;*/
+        transition: background-color 0.5s ease-in,
+        box-shadow:0.5s ease-in,
+            /*transformation*/
+            transform 0.5s ease-in;
+        
+        
+}
+    btn2:hover{
+    background-color:#B50045;
+    box-shadow:2px 4px 6px white;
+    transform:rotate(2deg) scale(1.1);
+}
+
+/*Mobile, program pages*/
+
+.layout-programs{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,(minmax(300px,1fr)));
+    grid-column-gap:2em;
+    grid-row-gap:2em;
+}
+
+.card{
+    border: solid 5px white;
+    border-radius:10px;
+    transition:
+        transform 0.5 ease-in,
+        box-shadow 0.5 ease-in;
+}
+
+.card img{
+    width:100%;
+}
+ 
+.card-body{
+    padding:1em;
+}
+
+.card:hover{
+    transform:translate(0,7px);
+    box-shadow: 0 -5px 5px white;
+}
+
+
+/*When the Screen Size is BIGGER than 768px*/
+/*index*/
+@media(min-width:768px){
+    .layout{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap:1em;
+    }
+    
+    .show-menu{
+        display:block;
+    }
+    .menu-nav{
+    display:flex;
+}
+    
+    .menu li{
+        display:inline;
+        margin-right:2.5em;
+    }
+    .menu-button{
+        display:none;
+    }
+   
+    /*button transitions*/
+    .btn{
+        
+  text-transform:uppercase;
+  font-size:1em;
+  color:white;
+  padding:0.5em;
+  min-width:1em;
+  border:none;
+  background-color:#B50045;
+  border-radius:5px;
+        /*transition-property:background-color,box-shadow;
+        transition-duration: 0.6s;*/
+        transition: background-color 0.5s ease-in,
+        box-shadow:0.5s ease-in,
+            /*transformation*/
+            transform 0.5s ease-in;
+        
+        
+}
+.btn:hover{
+    background-color:#B50045;
+    box-shadow:2px 4px 6px white;
+    transform:rotate(2deg) scale(1.1);
+}
+.btn2{
+position:absolute;
+top:800px;
+    left:40px;
+  text-transform:uppercase;
+  font-size:1em;
+  color:white;
+  padding:0.5em;
+  min-width:1em;
+  border:none;
+  background-color:#B50045;
+  border-radius:5px;
+        /*transition-property:background-color,box-shadow;
+        transition-duration: 0.6s;*/
+        transition: background-color 0.5s ease-in,
+        box-shadow:0.5s ease-in,
+            /*transformation*/
+            transform 0.5s ease-in;
+        
+        
+}
+    btn2:hover{
+    background-color:#B50045;
+    box-shadow:2px 4px 6px white;
+    transform:rotate(2deg) scale(1.1);
+}
+}

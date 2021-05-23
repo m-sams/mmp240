@@ -1,0 +1,32 @@
+Noted on 5/10/21
+
+DONE TODAY: Other pages using css grid format
+
+UPDATES NEEDED:
+- current nav bar css must be moved to media query section to fix display on mobile/computer
+
+- decide on color scheme/button design
+- add links to rest of cards/add images to cards/add card bios
+
+toggle menu js: (onclick function)
+
+function showMenu() {
+ var menu = document.getElementById("menu");
+ if (menu.style.display==="none"){
+ menu.style.display="block";
+ } else {
+ menu.style.display="none";
+ }
+ }
+
+Noted 5/12/21
+
+DONE TODAY: CSS animations/transitions (check btn), apply button
+
+UPDATES NEEDED: 
+
+- adjust width of top 25 text to push down apply button
+
+Noted 5/16/21
+
+- javascript not working for dropdown

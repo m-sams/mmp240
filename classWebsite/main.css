@@ -43,7 +43,6 @@ a:visited{
 }
 #asList ul{
     margin: 100px;
-    padding:10px;
    
 }
 ul li{
@@ -51,4 +50,6 @@ ul li{
 }
 .grid-container{
     display:grid;
+    grid-template-columns: auto auto auto;
+    padding:10px;
 }

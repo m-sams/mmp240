@@ -1,5 +1,5 @@
 body{
-    background-color: gainsboro;
+    background-color: #7A0033;
     font-family: helvetica;
 }
 
@@ -9,8 +9,26 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid #E0005D;
+    border-radius:3px;
 }
 
+h1,p{
+    color:white;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    text-decoration:underline;
+    color: #FA0067;
+    transition-delay:1ms;
+}
+a:visited{
+    color:white;
+}
 #introduction h1{
     text-align:center;
 }
@@ -25,4 +43,12 @@ body{
 }
 #asList ul{
     margin: 100px;
+    padding:10px;
+   
+}
+ul li{
+    padding:5px;
+}
+.grid-container{
+    display:grid;
 }
